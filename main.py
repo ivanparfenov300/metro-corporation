@@ -1,4 +1,5 @@
-import ugadayka
+import guess_game
+import tic_tac_toe
 
 
 def main():
@@ -14,9 +15,9 @@ def main():
         case 0:
             print("\nВы вышли из приложения\n")
         case 1:
-            pass # Крестики-нолики
+            tic_tac_toe.game() # Крестики-нолики !!! В РАЗРАБОТКЕ !!!
         case 2:
-            ugadayka.ugadayka()
+            guess_game.game()
         case 3:
             pass # Виселица
         case 4:
