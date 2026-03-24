@@ -1,6 +1,6 @@
 import guess_game
 import tic_tac_toe
-
+import gallows
 
 def main():
     print("""    -----------------\n\tМини-игры\n
@@ -19,9 +19,9 @@ def main():
         case 2:
             guess_game.game()
         case 3:
-            pass # Виселица
+            gallows.game()
         case 4:
-            pass # Змейка
+            snake.game() # змейка, в разработке
         case _:
             print("Нет такой игры.")
 
