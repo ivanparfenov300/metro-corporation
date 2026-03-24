@@ -21,7 +21,7 @@ def main():
         case 3:
             gallows.game()
         case 4:
-            snake.game() # змейка, в разработке
+            snake.game() # type: ignore Змейка, в разработке
         case _:
             print("Нет такой игры.")
 
